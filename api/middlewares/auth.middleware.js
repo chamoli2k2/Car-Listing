@@ -6,7 +6,7 @@ dotenv.config();
 
 const authMiddleware = (req, res, next) => {
     // Extract the token from the 'Authorization' header
-    const authHeader = req.headers.authorization?.split(' ')[1];
+    const authHeader = req.header('Authorization');
     
     // Check if the authorization header exists
     if (!authHeader) {

@@ -13,7 +13,9 @@ const Profile = () => {
 
   // Fetch all cars for the logged-in user
   const fetchUserCars = async () => {
+    
     const token = localStorage.getItem('token');
+ 
     try {
       const response = await axios.get(`${BASE_URL}/api/car/get_all_car_user`, {
         headers: { Authorization: `Bearer ${token}` },
