@@ -10,6 +10,12 @@ You can check out the live deployment [here](https://car-listing-ixro.onrender.c
 
 ---
 
+## 📹 Project Video Demo
+[![Watch the video](https://img.youtube.com/vi/ttv1CbgmOCg/maxresdefault.jpg)](https://youtu.be/ttv1CbgmOCg)
+> Click the image above to watch a quick walkthrough of the project.
+
+---
+
 ## 📑 Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -120,3 +126,6 @@ You can view the full API documentation using **Postman** [here](https://documen
 - **DELETE** `/api/car/delete/:id` - Delete a car
 
 ---
+
+
+
