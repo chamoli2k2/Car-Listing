@@ -14,11 +14,8 @@ const Signup = () => {
     try {
       const response = await axios.post(BASE_URL + '/api/user/register', { username, email, password });
 
-      // Save token to local storage for authentication
-      localStorage.setItem('token', response.data.token);
-
       // Redirect to the listing page
-      navigate('/listing');
+      navigate('/login');
     } catch (error) {
       alert('Signup failed');
     }
