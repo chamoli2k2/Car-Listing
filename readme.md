@@ -10,12 +10,6 @@ You can check out the live deployment [here](https://car-listing-ixro.onrender.c
 
 ---
 
-## 📹 Project Video Demo
-[![Watch the video](https://img.youtube.com/vi/your_video_id/maxresdefault.jpg)](https://youtu.be/your_video_id)
-> Click the image above to watch a quick walkthrough of the project.
-
----
-
 ## 📑 Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
